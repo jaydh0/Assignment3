@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+        <form id="bookingForm">
+            
+        <h1>Book Your Stay</h1>
+            <div class="section">
+                <h2>Details</h2>
+                <div class="inputBox">
+                    <label for="checkinDate">Check-in Date:</label>
+                    <input type="date" id="checkinDate">
+                    <span class="errorMsg" id="errorDate"></span>
+                </div>
+                <div class="inputBox">
+                    <label for="numberNights">Number of Nights:</label>
+                    <input type="text" id="numberNights">
+                    <span class="errorMsg" id="errorNights"></span>
+                </div>
+                <div class="inputBox">
+                    <label for="adultGuests">Adults:</label>
+                    <input type="number" id="adultGuests" min="1">
+                </div>
+                <div class="inputBox">
+                    <label for="childGuests">Children:</label>
+                    <input type="number" id="childGuests" min="0">
+                </div>
+            </div>
+            <div class="section">
+                <h2>Preferences</h2>
+                <div class="inputBox">
+                    <p>Room Type:</p>
+                    <label><input type="checkbox" name="roomOption" value="Standard">Standard</label>
+                    <label><input type="checkbox" name="roomOption" value="Business">Business</label>
+                    <label><input type="checkbox" name="roomOption" value="Suite">Suite</label>
+                </div>
+                <div class="inputBox">
+                    <p>Bed Type:</p>
+                    <label><input type="checkbox" name="bedOption" value="King">King</label>
+                    <label><input type="checkbox" name="bedOption" value="Double">Double</label>
+                </div>
+            </div>
+            <div class="section">
+                <h2>Contact</h2>
+                <div class="inputBox">
+                    <label for="fullName">Name:</label>
+                    <input type="text" id="fullName">
+                    <span class="errorMsg" id="errorName"></span>
+                </div>
+                <div class="inputBox">
+                    <label for="userEmail">Email:</label>
+                    <input type="email" id="userEmail">
+                    <span class="errorMsg" id="errorEmail"></span>
+                </div>
+                <div class="inputBox">
+                    <label for="userPhone">Phone:</label>
+                    <input type="text" id="userPhone">
+                </div>
+            </div>
+            <div class="btnWrapper">
+                <button type="button" id="submitBtn">Submit</button>
+            </div>
+            <div class="copy"> &copy; Jayden Haughton n01703279 </div> 
+        </form>
+        <script src="/Part 4/node.js"></script>
+    </body>
+  <html>
+      
+  

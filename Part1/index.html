@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled Document</title>
+    <link rel="stylesheet" href="/Part1/styles.css">
+</head>
+<body>
+    <div id="colorwrapper">
+        <h1>Sales Tax Calculator</h1>
+       
+        <p>Enter subtotal and tax rate</p>
+       
+        <form id="taxform">
+            
+            <div id="subtotalcon">
+                <label for="subtotal">Subtotal:</label>
+                <input type="text" id="subtotal" name="subtotal">
+                <span id="subtotal_error" class="error">*</span>
+            </div>
+            
+            <div id="taxcon">
+                <label for="tax_rate">Tax Rate (%):</label>
+                <input type="text" id="tax_rate" name="tax_rate">
+                <span id="tax_rate_error" class="error">*</span>
+            </div>
+        
+            
+            <div id="salescon">
+                <label for="sales_tax">Sales Tax:</label>
+                <input type="text" id="sales_tax" name="sales_tax" disabled>
+            </div>
+            
+            <div id="totalcon">
+                <label for="total">Total:</label>
+                <input type="text" id="total" name="total" disabled>
+            </div>
+          
+            <div id="buttoncon">
+                <button type="button" id="calculate">Calculate</button>
+                <button type="button" id="clear_form">Clear</button>
+            </div>
+        </form>
+
+        <script src="node.js"></script>
+    
+  <div class="copy"> &copy; Jayden Haughton n01703279 </div> 
+</div>
+    
+</body>
+</html>

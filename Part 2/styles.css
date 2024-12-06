@@ -1,0 +1,49 @@
+#changeform {
+    max-width: 35%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: #ffeff7;
+    border: 10px solid white;
+}
+
+#changeform, label {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.errormsg {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.buttons {
+    margin: 15px 0;
+    
+}
+
+button{
+    padding: 20px;
+    background-color: rgb(255, 224, 244);
+    border-radius: 100px;
+}
+
+label{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    padding: 20px;
+}
+
+html{
+    background-color: #44313b;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Calculation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="calculator">
+        <header class="calculator-header">
+            <h2>Income Tax Estimator</h2>
+        </header>
+        <div class="calculator-body">
+            <div class="input-group">
+                <label for="taxable-amount">Enter Taxable Income:</label>
+                <input type="text" id="taxable-amount" name="taxable-amount">
+                <div class="error-message" id="amount-error"></div>
+            </div>
+            <div class="button-group">
+                <button id="compute-btn">Compute Tax</button>
+            </div>
+            <div class="result-group">
+                <label for="tax-output">Calculated Tax:</label>
+                <input type="text" id="tax-output" disabled>
+            </div>
+        </div>
+        
+        <div class="copy"> &copy; Jayden Haughton n01703279 </div> 
+    </section>
+
+    <script src="/Part 3/node.js"></script>
+       
+</body>
+</html>

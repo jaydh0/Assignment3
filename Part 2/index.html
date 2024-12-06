@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="changeform">
+
+        <h2> Change Total Calculator</h2>
+        <div>
+            <label for="input-amount">Amount: 0-99:</label>
+            <input type="text" id="input-amount">
+            <span class="errormsg" id="errormsg">*</span>
+        </div>
+      
+        <div>
+            <label for="quarts">Quarters:</label>
+            <input type="text" id="quarts" disabled>
+        </div>
+       
+        <div>
+            <label for="dimes">Dimes:</label>
+            <input type="text" id="dimes" disabled>
+        </div>
+       
+        <div>
+            <label for="nickels">Nickels:</label>
+            <input type="text" id="nickels" disabled>
+        </div>
+        
+        <div>
+            <label for="pennies">Pennies:</label>
+            <input type="text" id="pennies" disabled>
+        </div>
+
+        <div class="buttons">
+            <button type="button" id="compute-change">Compute</button>
+            <button type="button" id="clear">Clear</button>
+        </div>
+
+         <div class="copy"> &copy; Jayden Haughton n01703279 </div> 
+      
+    </form>
+    <script src="node.js"> </script>
+</body>
+</html>
